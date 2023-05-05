@@ -1,8 +1,8 @@
-import UseMemoExample from "./components/UseMemoExample"
+import UseCallbackExample from "./components/UseCallbackExample"
 export default function App() {
   return (
     <div>
-      <UseMemoExample/>
+      <UseCallbackExample/>
     </div>
   )
 }
