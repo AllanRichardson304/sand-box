@@ -1,8 +1,9 @@
-import UseCallbackExample from "./components/UseCallbackExample"
+import CustomHookExample1 from "./components/CustomHookExample1"
 export default function App() {
+
   return (
     <div>
-      <UseCallbackExample/>
+      <CustomHookExample1/>
     </div>
   )
 }
