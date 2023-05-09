@@ -9,7 +9,7 @@ export default function CustomHookExample2() {
             completed: false,
             date:new Date().toLocaleDateString()
         }
-         setTask([...tasks, taskObj])
+         setTasks([...tasks, taskObj])
     }
   return (
     <>
@@ -21,7 +21,7 @@ export default function CustomHookExample2() {
       <button type="submit">Submit</button>
     </form>
     <hr />
-    {task.map((task)=>(
+    {tasks.map((task)=>(
         <h3 key={task.date}>{task.task}</h3>
     ))}
     </>
